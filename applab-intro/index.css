@@ -1,0 +1,60 @@
+.app-center{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-previous{
+  padding: 0px; 
+  margin: 0px; 
+  border-style: solid; 
+  height: 70px; 
+  width: 140px; 
+  background-color: green; 
+  color: rgb(255, 255, 255); 
+  border-color: rgb(0, 0, 0); 
+  border-radius: 0px; 
+  border-width: 0px; 
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  font-size: 14px; 
+
+  position: absolute; 
+  left: 15px; 
+  top: 285px;
+}
+
+.button-next{
+  padding: 0px; 
+  margin: 0px; 
+  border-style: solid; 
+  height: 70px; 
+  width: 140px; 
+  background-color: yellow; 
+  color: black; 
+  border-color: rgb(0, 0, 0); 
+  border-radius: 0px; 
+  border-width: 0px; 
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  font-size: 14px; 
+
+  position: absolute; 
+  left: 165px; 
+  top: 285px;
+}
+
+.house-image{
+  height: 270px; 
+  width: 100%; 
+  border-style: solid; 
+  border-width: 0px; 
+  border-color: rgb(0, 0, 0); 
+  border-radius: 0px; 
+  position: absolute; 
+  left: 0px; 
+  top: 0px; 
+  margin: 0px; 
+  object-fit: cover; 
+  margin:0 !important;
+}
